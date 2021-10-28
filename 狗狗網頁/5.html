@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap網頁</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style>
+	body {background-image:url(image/images.jpg);
+	      background-repeat:repeat
+		  backgroung-image:style="opacity:8.0"}
+	</style>
+  </head>
+  <body>
+  
+  <nav class="navbar navbar-default" >        
+      <div class="container-fluid" style="background:#782bca">
+        <div class="navbar-header">
+		  <a class="navbar-brand"  href="index.html"> <font color="white">狗子的網頁</font></a>
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">導覽按鈕</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+          </button>          
+        </div>
+		<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		    <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+              <font color="red">大型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="5.html">黃金獵犬</a></li>
+                <li><a href="9.html">哈士奇</a></li>
+              </ul>
+            </li>
+            
+			<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"><font color="white,green">
+              中型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="corgi.html">柯基</a></li>
+                <li><a href="3.html">柴犬</a></li>
+				<li><a href="4.html">薩摩耶</a></li>
+              </ul>
+            </li>
+            
+			<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+              <font color="yellow">小型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="6.html">推薦網站</a></li>
+                <li><a href="8.html">馬爾濟斯</a></li>
+              </ul>
+            </li>		  
+		  </ul>
+		</div>
+	  </div>
+    </nav>
+    
+	
+	<div class="container">
+	  <div class="panel panel-default">
+        <div class="panel-heading" style="background:#352bca">
+	      <h3><font color="white">黃金獵犬之地！</font></h3>
+	    </div>
+		
+        <div class="panel-body">
+		  <p><h2>喜歡黃金獵犬卻沒有獲取的地方嗎?!　　朋友有福惹! 這裡就買的到!</h2></p>
+	      <!-- 觸發互動視窗的按鈕 -->
+          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">開始訂購</button>
+	    </div>
+      </div>	
+      
+      <!-- 互動視窗 -->
+      <div class="modal fade" id="myModal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+              <h3 class="modal-title">帥氣黃金獵犬</h3>
+            </div>
+			
+            <div class="modal-body">
+              <img src="image\p15.jpg" width="50%" class="img-responsive center-block">
+			  <p class="h3 text-right">15000000000000$$</p>
+            </div>
+			
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary btn-lg"  ><a class="btn btn-default btn-lg btn-info" href="7	.html" role="button" data-toggle="tooltip" data-placement="bottom" title="放入購物車">放入購物車</a></button>
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+  </body>
+</html>
+

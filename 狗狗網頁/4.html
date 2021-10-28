@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap網頁</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">    
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script>
+	alert("內有惡犬!請小心!!");
+	</script>
+	<style>
+	body {background-image:url(image/20.jpg);
+	      background-repeat:repeat
+		  backgroung-image:style="opacity:8.0"}
+	</style>
+  </head>
+  <body>
+  
+	<nav class="navbar navbar-default" >        
+      <div class="container-fluid" style="background:#782bca">
+        <div class="navbar-header">
+		  <a class="navbar-brand"  href="index.html"> <font color="white">狗子的網頁</font></a>
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+              <span class="sr-only">導覽按鈕</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+          </button>          
+        </div>
+		<div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+		    <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+              <font color="red">大型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="5.html">黃金獵犬</a></li>
+                <li><a href="9.html">哈士奇</a></li>
+              </ul>
+            </li>
+            
+			<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"><font color="white,green">
+              中型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="corgi.html">柯基</a></li>
+                <li><a href="3.html">柴犬</a></li>
+				<li><a href="4.html">薩摩耶</a></li>
+              </ul>
+            </li>
+            
+			<li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button">
+              <font color="yellow">小型犬</font> <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="6.html">推薦網站</a></li>
+                <li><a href="8.html">馬爾濟斯</a></li>
+              </ul>
+            </li>		  
+		  </ul>
+		</div>
+	  </div>
+    </nav>
+	<div class="container text-center">
+      <img src="image\15.jpg" width="60%" class="img-responsive center-block"><br>	
+      <button type="button" class="btn btn-default" data-toggle="popover" data-placement="top" data-container="body" data-content="薩摩耶犬（英語：Samoyed）是狐狸犬、雪橇犬家族的一員，原是西伯利亞的原住民薩摩耶族培育出的犬種。 因看起來永遠在笑的樣子又喜歡親近人，有著被稱為薩摩耶的笑容的特徵。 除了溫和的個性也以忍耐力跟健壯著稱，原是用來拉雪橇跟看守馴鹿，也曾被西方探險家用來從事極地探險的任務。">想多了解牠嘛!</button>
+      <button type="button" class="btn btn-default" data-toggle="popover" data-placement="right" title="可愛薩摩耶" data-content="白色天使">右邊有神秘文字</button>		
+    </div>
+	
+    <script>
+	  $(function(){
+        $('[data-toggle="popover"]').popover()
+      })
+	</script>	
+  </body>
+</html>
